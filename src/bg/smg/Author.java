@@ -37,4 +37,8 @@ public class Author {
     public void setBestseller(boolean bestseller) {
         isBestseller = bestseller;
     }
+
+    public void print(){
+        System.out.println("Author of the books: ");
+    }
 }
