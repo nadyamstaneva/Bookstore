@@ -9,6 +9,7 @@ public class Book {
     private double price;
 
     public Book() {
+        author = new Author();
     }
 
     public Book(String title, Author author, int pagesCount, String category, String publisher, double price) {
