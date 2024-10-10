@@ -1,4 +1,4 @@
-package bg.smg;
+package bg.smg.model;
 
 public class Author {
     private String name;

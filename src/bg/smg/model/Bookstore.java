@@ -1,9 +1,14 @@
-package bg.smg;
+package bg.smg.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Bookstore {
     private List<Book> books;
+
+    public Bookstore() {
+        books = new ArrayList<>();
+    }
 
     public Bookstore(List<Book> books) {
         this.books = books;

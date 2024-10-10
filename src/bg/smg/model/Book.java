@@ -1,4 +1,4 @@
-package bg.smg;
+package bg.smg.model;
 
 public class Book {
     private String title;
@@ -9,7 +9,7 @@ public class Book {
     private double price;
 
     public Book() {
-        author = new Author();
+        this.author=new Author();
     }
 
     public Book(String title, Author author, int pagesCount, String category, String publisher, double price) {
@@ -68,4 +68,5 @@ public class Book {
     public void setTitle(String title) {
         this.title = title;
     }
+
 }
